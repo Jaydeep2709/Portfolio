@@ -1,0 +1,285 @@
+.projects {
+  width: 100%;
+  padding: 20px;
+  margin-top: 5px; /* Reduced from 30px */
+}
+
+.projects-content {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px 0; /* Reduced from 50px */
+  text-align: center;
+}
+
+.projects-content-title {
+  margin-bottom: 5px;
+  text-align: center;
+}
+
+.projects-content-description {
+  color: var(--grey-color);
+  margin-bottom: 8px; /* Reduced from 10px */
+}
+
+.projects-content-items {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px; /* Reduced from 30px */
+  width: 90%;
+  justify-items: center;
+  margin-top: 0px; /* Reduced from 40px */
+}
+
+.project-item {
+  background-color: var(--background-color-2);
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 8px; /* Reduced from 10px */
+  padding: 15px; /* Reduced from 25px */
+  width: 100%;
+  position: relative;
+}
+
+.project-image {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  border-radius: 8px;
+}
+
+.project-image img {
+  width: 100%;
+  aspect-ratio: 4/3; /* Changed from 3/2 to reduce height */
+  border-radius: 8px;
+}
+
+.project-details {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: space-between;
+  padding: 2px;
+}
+
+.project-title {
+  text-align: left;
+  width: 100%;
+}
+
+.project-title h3 {
+  font-size: var(--font-size-xl); /* Reduced from --font-size-xxl */
+  font-weight: 500;
+}
+
+.project-title p {
+  font-size: var(--font-size-s); /* Reduced from --font-size-m */
+  color: var(--grey-color);
+  max-width: 90%;
+}
+
+.project-stacks {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  padding: 5px 0; /* Reduced from 10px */
+  margin-top: 5px; /* Reduced from 10px */
+}
+
+.stacks {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px; /* Reduced from 8px */
+  margin-top: 5px; /* Reduced from 10px */
+}
+
+/* Style technology icons */
+.tech-icon {
+  width: 40px; /* Reduced from 50px */
+  height: 40px; /* Reduced from 50px */
+  padding: 6px; /* Reduced from 8px */
+  background-color: var(--secondary-color);
+  border: 1px solid var(--secondary-color);
+  border-radius: 6px; /* Reduced from 8px */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s; /* Slightly faster transition */
+}
+
+.tech-icon:hover {
+  border: 1px solid var(--primary-color);
+  filter: brightness(1.25);
+}
+
+.tech-icon img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+/* Ensure buttons align properly */
+.project-btns {
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  gap: 8px; /* Reduced from 10px */
+  margin-top: 5px; /* Reduced from 10px */
+}
+
+.project-btns a {
+  padding: 12px; /* Reduced from 15px */
+  display: flex;
+  align-items: center;
+  border-radius: 6px; /* Reduced from 8px */
+  transition: all 0.3s; /* Slightly faster transition */
+}
+
+.code-icon,
+.live-icon {
+  font-size: var(--font-size-xl); /* Reduced from --font-size-xxl */
+  transition: all 0.3s;
+}
+
+.code-icon {
+  color: var(--primary-color);
+}
+
+.code-btn {
+  border: 1px solid var(--primary-color);
+}
+.code-btn:hover {
+  background-color: var(--primary-color);
+}
+.code-btn:hover .code-icon {
+  color: var(--text-color);
+}
+
+.view-btn {
+  background-color: var(--primary-color);
+  border: 1px solid var(--primary-color);
+}
+.view-btn:hover {
+  background-color: var(--background-color-2);
+}
+.view-btn:hover .live-icon {
+  color: var(--primary-color);
+}
+
+.coming-soon {
+  font-size: var(--font-size-s); /* Reduced from --font-size-m */
+  color: var(--grey-color);
+  background-color: var(--background-color-2);
+  border: 1px solid var(--primary-color);
+  padding: 10px 12px; /* Reduced from 12px 15px */
+  border-radius: 6px; /* Reduced from 8px */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 80px; /* Reduced from 100px */
+  text-align: center;
+  transition: all 0.3s;
+}
+
+.coming-soon:hover {
+  background-color: var(--primary-color);
+  color: var(--text-color);
+}
+
+/* Responsive Design */
+@media (max-width: 1024px) {
+  .projects-content-items {
+    width: 90%;
+    gap: 12px; /* Reduced from 15px */
+  }
+  .project-stacks {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 4px; /* Reduced from 5px */
+    width: 100%;
+    padding: 5px 0;
+    margin-top: 0px;
+  }
+  .tech-icon {
+    width: 36px; /* Reduced from 45px */
+    height: 36px;
+    padding: 5px; /* Reduced from 7px */
+    border-radius: 6px;
+  }
+  .project-btns a {
+    padding: 10px; /* Reduced from 13px */
+  }
+  .coming-soon {
+    padding: 8px 10px; /* Reduced from 10px 12px */
+    min-width: 70px; /* Reduced from 80px */
+    font-size: var(--font-size-xs); /* Reduced from --font-size-s */
+  }
+}
+
+@media (max-width: 768px) {
+  .projects-content-items {
+    width: 95%;
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .project-stacks {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    width: 100%;
+    padding: 5px 0;
+    margin-top: 5px;
+  }
+  .tech-icon {
+    width: 32px; /* Reduced from 40px */
+    height: 32px;
+    padding: 4px; /* Reduced from 6px */
+  }
+  .project-btns a {
+    padding: 8px; /* Reduced from 12px */
+  }
+  .coming-soon {
+    padding: 8px 10px;
+    min-width: 75px;
+    font-size: var(--font-size-xs);
+  }
+}
+
+@media (max-width: 480px) {
+  .projects-content-items {
+    gap: 8px; /* Reduced from 10px */
+  }
+  .project-stacks {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 3px; /* Reduced from 5px */
+    width: 100%;
+    padding: 5px 0;
+    margin-top: 0px;
+  }
+  .tech-icon {
+    width: 28px; /* Reduced from 35px */
+    height: 28px;
+    padding: 3px; /* Reduced from 5px */
+  }
+  .project-btns a {
+    padding: 6px; /* Reduced from 10px */
+  }
+  .coming-soon {
+    padding: 6px 8px; /* Reduced from 8px 10px */
+    min-width: 60px; /* Reduced from 75px */
+    font-size: var(--font-size-xs);
+  }
+  .project-title h3 {
+    font-size: var(--font-size-l); /* Further reduced for small screens */
+  }
+  .project-title p {
+    font-size: var(--font-size-xs); /* Further reduced */
+  }
+}
