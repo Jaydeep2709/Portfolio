@@ -1,5 +1,5 @@
-import SRMImg from "../assets/srm.svg";
-import TCSImg from "../assets/tcs.svg";
+import Adcet from "../assets/Adcet.png";
+import Rheal from "../assets/Rheal.png";
 import PortfolioImg from "../assets/portfolio.png";
 import ReactIcon from "../assets/React.svg";
 import DotNetCoreIcon from "../assets/NET_Core_Logo.svg"
@@ -135,7 +135,7 @@ export const userData = {
         location: "Pune, India",
         year: "Feb 2024 - Present",
         role: "Designed and developed scalable web applications for the 'Any Where Warrant' project using Angular and .NET MVC. Collaborated with cross-functional teams to enhance performance, conducted code reviews, and ensured high-quality deliverables through unit testing and debugging.",
-        image: TCSImg,
+        image: Rheal,
       }
     ],
     edu: [
@@ -144,7 +144,7 @@ export const userData = {
         degree: "Bachelor of Technology in Computer Science and Engineering",
         institution: "ADCET Ashta",
         year: "Jul 2020 - May 2024",
-        image: SRMImg,
+        image: Adcet,
       },
     ],
   },
