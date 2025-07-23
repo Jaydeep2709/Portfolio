@@ -1,24 +1,13 @@
 import SRMImg from "../assets/srm.svg";
 import TCSImg from "../assets/tcs.svg";
 import PortfolioImg from "../assets/portfolio.png";
-import TasteTroopImg from "../assets/tastetroop.jpeg";
 import ReactIcon from "../assets/React.svg";
 import DotNetCoreIcon from "../assets/NET_Core_Logo.svg"
-import DotNetMVCIcon from "../assets/NET.svg"
 import SQLIcon from "../assets/SQL Developer.svg"
 import Angular from "../assets/Angular.svg"
 import JavaScriptIcon from "../assets/JavaScript.svg";
-import HTMLIcon from "../assets/HTML5.svg";
-import CSSIcon from "../assets/CSS3.svg";
-import BootstrapIcon from "../assets/Bootstrap.svg";
-import TailwindIcon from "../assets/Tailwind CSS.svg";
-import ExpressIcon from "../assets/Express.svg";
-import MongoDBIcon from "../assets/MongoDB.svg";
 import TypeScriptIcon from "../assets/TypeScript.svg";
 import GitIcon from "../assets/Git.svg";
-import GitHubIcon from "../assets/GitHub.svg";
-import NextJsIcon from "../assets/Next.js.svg";
-import NodeJsIcon from "../assets/Node.js.svg";
 import UnderDevelopment from "../assets/UnderDevelopment.png"
 
 export const userData = {
