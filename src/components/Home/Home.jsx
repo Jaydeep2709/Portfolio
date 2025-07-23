@@ -6,7 +6,7 @@ import FileDownloadIcon from "@mui/icons-material/FileDownload";
 import EmailIcon from "@mui/icons-material/Email";
 import { motion } from "framer-motion";
 import { userData } from "../../constants/userData";
-import ProfileImg from "../../assets/Photo.jpg";
+import ProfileImg from "../../assets/Photo.png";
 // Adjust path to your actual profile image
 import "./Home.css";
 
