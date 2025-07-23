@@ -159,7 +159,7 @@ export const userData = {
         techStack: ["JavaScript", "React", "CSS"],
         image: PortfolioImg,
         github: "https://github.com/Jaydeep2709/PortFolio",
-        website: "",
+        website: "https://jaydeep-khot-portfolio.onrender.com",
         status: "completed", // Mark as completed
       },
       {
