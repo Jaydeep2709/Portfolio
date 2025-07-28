@@ -9,6 +9,7 @@ import JavaScriptIcon from "../assets/JavaScript.svg";
 import TypeScriptIcon from "../assets/TypeScript.svg";
 import GitIcon from "../assets/Git.svg";
 import UnderDevelopment from "../assets/UnderDevelopment.png"
+import Opra from "../assets/Opra.png"
 
 export const userData = {
   name: "Jaydeep Sarjerao Khot",
