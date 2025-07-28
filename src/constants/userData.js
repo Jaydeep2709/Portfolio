@@ -136,7 +136,16 @@ export const userData = {
         year: "Feb 2024 - Present",
         role: "Designed and developed scalable web applications for the 'Any Where Warrant' project using Angular and .NET MVC. Collaborated with cross-functional teams to enhance performance, conducted code reviews, and ensured high-quality deliverables through unit testing and debugging.",
         image: Rheal,
-      }
+      },
+      {
+        id: 2,
+        title: "Web Developer Intern",
+        company: "OPRA IT Solutions Pvt. Ltd.",
+        location: "Pune, India",
+        year: "Aug 2023 – Jan 2024",
+        role: "Built responsive web interfaces using React.js, JavaScript, HTML, and CSS. Integrated REST APIs, managed component state with React hooks, and collaborated with backend teams in an agile environment.",
+        image: Opra, // replace 'Opra' with the actual image variable or path
+}
     ],
     edu: [
       {
